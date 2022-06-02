@@ -14,16 +14,16 @@ command to create an SSH key is `ssh-keygen -t rsa -b 4096 -C "your_email@exampl
 * To delete a repository go to settings and 
 
 * push an existing repository from the command line
-    `git remote add origin https://github.com/VasuKotha2/LearnigDevops.git` -> using https
-    `git remote add origin git@github.com:VasuKotha2/LearnigDevops.git` -> using SSH
-    `git branch -M main`
-    `git push -u origin main` -> to push the contents to your remote repository
+    * `git remote add origin https://github.com/VasuKotha2/LearnigDevops.git` -> using https
+    * `git remote add origin git@github.com:VasuKotha2/LearnigDevops.git` -> using SSH
+    * `git branch -M main`
+    * `git push -u origin main` -> to push the contents to your remote repository
 
 * push an existing repository from the command line
-    `git remote add origin https://github.com/VasuKotha2/LearnigDevops.git` -> using https
-    `git remote add origin git@github.com:VasuKotha2/LearnigDevops.git` -> using SSH
-    `git branch -M main`
-    `git push -u origin main` -> to push the contents to your remote repository. Provide username and password.
+    * `git remote add origin https://github.com/VasuKotha2/LearnigDevops.git` -> using https
+    * `git remote add origin git@github.com:VasuKotha2/LearnigDevops.git` -> using SSH
+    * `git branch -M main`
+    * `git push -u origin main` -> to push the contents to your remote repository. Provide username and password.
 * While pushing to the remote repository if you come accross an error like
     remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
     remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
