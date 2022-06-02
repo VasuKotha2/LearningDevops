@@ -31,6 +31,6 @@ command to create an SSH key is `ssh-keygen -t rsa -b 4096 -C "your_email@exampl
 
     This is because we need to generate a token to read/write contents from gihub.
 
-### Creating a token in Github
+### Creating a token in Github (Personal Access Token PAT)
 ------------------------------
 * Go to settings -> Developer Settings -> Personal access tokens -> Generate new token -> Give your token a descriptive name -> select the Expiration drop-down menu, then click a default or use the calendar picker -> Select the scopes, or permissions, you'd like to grant this token -> Generate token
